@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Propiedades mecánicas y metalúrgicas de los metales',
+    descripcionCurso:
+      'El componente formativo propiedades mecánicas y metalúrgicas de los metales, aborda las características físicas y químicas de los metales, como tenacidad, ductilidad, maleabilidad, resistencia, fatiga, dureza, oxidación y corrosión. Incluye métodos de ensayo para evaluar su comportamiento, destacando normas como ASTM. Además, enfatiza la importancia de la correcta aplicación y las regulaciones ambientales en la industria metalúrgica.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Especificaciones técnicas de los productos metálicos ',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Ensayos físicos ',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Ensayos químicos ',
+            hash: 't_1_2',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -102,32 +99,117 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Especificaciones técnicas de los productos metálicos ',
+      referencia:
+        'Lifeder Educación. (2022). METALES, NO METALES Y METALOIDES explicados: propiedades y ejemplos. [Archivo de video] Youtube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/mMlqo2I1l6s?feature=shared  ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Tracción  ',
+      referencia:
+        'EAFIT+. (2020). Ensayo: de tracción a probeta de acero. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link: 'https://youtu.be/wy7ENOO6RiI?feature=shared  ',
+    },
+    {
+      tema: 'Comprensión  ',
+      referencia:
+        'Instron España. (2023). ¿Qué es un ensayo de compresión?. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link: 'https://youtu.be/MmV8ANzeVVc?feature=shared  ',
+    },
+    {
+      tema: 'Corrosión ',
+      referencia:
+        'Elektro-Korrosion (2020). ¿Qué es la corrosión galvánica? Elektro-Korrosion. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link: 'https://youtu.be/8JErTBFhBDM?feature=shared  ',
+    },
+    {
+      tema: 'Dureza  ',
+      referencia:
+        'Sinowon. (2023). Demostración Completa del Probador de Dureza Rockwell DigiRock DR3 |Guia Técnica y Tutorial. [Archivo de video] Youtube.  ',
+      tipo: 'Video',
+      link: 'https://youtu.be/eE6ovd4MCWg?feature=shared  ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Acero',
+      significado:
+        'aleación de hierro con pequeñas cantidades de carbono, silicio, manganeso y otros elementos. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Corrosión',
+      significado:
+        'degradación de un metal por la oxidación en ambientes húmedos o con sustancias específicas. ',
+    },
+    {
+      termino: 'Ductilidad',
+      significado:
+        'capacidad de un metal para ser estirado en forma de hilos sin romperse. ',
+    },
+    {
+      termino: 'Dureza',
+      significado:
+        'capacidad de un material para resistir la deformación cuando es sometido a presión. ',
+    },
+    {
+      termino: 'Ensayo de Tensión',
+      significado:
+        'prueba para determinar la resistencia y tenacidad de un metal bajo fuerzas uniaxiales. ',
+    },
+    {
+      termino: 'Fatiga',
+      significado:
+        'fenómeno que provoca la rotura de un metal por esfuerzos repetidos o cíclicos. ',
+    },
+    {
+      termino: 'Maleabilidad',
+      significado:
+        'capacidad de un metal para ser transformado en láminas mediante laminación. ',
+    },
+    {
+      termino: 'Oxidación',
+      significado:
+        'reacción química de un metal con oxígeno, formando una capa de óxido en su superficie. ',
+    },
+    {
+      termino: 'Resistencia',
+      significado:
+        'capacidad de un metal para soportar fuerzas o cargas sin deformarse permanentemente. ',
+    },
+    {
+      termino: 'Tenacidad',
+      significado:
+        'energía de deformación que un material puede absorber antes de romperse. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Askeland, D. (2004). <em>Ciencia e ingeniería de los materiales</em> (4.ª ed.). Thomson.',
       link: '',
+    },
+    {
+      referencia: 'ASTM Internacional. (2016). <em>ICAM 2024</em>.',
+      link: 'http://www.astm.org',
+    },
+    {
+      referencia:
+        'Calle, T. G. (2016). <em>Laboratorio de resistencia de materiales – Guía de laboratorio</em>. Universidad Tecnológica de Pereira. ',
+      link: 'http://www.utp.edu.co/~gcalle/Impacto.pdf',
+    },
+    {
+      referencia:
+        'Calle, G., & Henao, E. (2016). <em>Dureza Rockwell</em>. Universidad Tecnológica de Pereira.',
+      link: '',
+    },
+    {
+      referencia: 'Motorgiga. (2014). <em>Fatiga de los metales</em>.',
+      link:
+        'http://diccionario.motorgiga.com/diccionario/fatiga-de-los-metales-definicion-significado/gmx-niv15-con194122.htm',
     },
   ],
   creditos: [
@@ -150,8 +232,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Hivo Alfonso Patarroyo Pulido',
+          cargo: 'Experto temático ',
+          centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya  ',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +247,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
