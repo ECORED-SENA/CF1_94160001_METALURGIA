@@ -156,7 +156,7 @@ export default {
         'capacidad de un material para resistir la deformación cuando es sometido a presión. ',
     },
     {
-      termino: 'Ensayo de Tensión',
+      termino: 'Ensayo de tensión',
       significado:
         'prueba para determinar la resistencia y tenacidad de un metal bajo fuerzas uniaxiales. ',
     },
@@ -198,11 +198,6 @@ export default {
     },
     {
       referencia:
-        'Calle, T. G. (2016). <em>Laboratorio de resistencia de materiales – Guía de laboratorio</em>. Universidad Tecnológica de Pereira. ',
-      link: 'http://www.utp.edu.co/~gcalle/Impacto.pdf',
-    },
-    {
-      referencia:
         'Calle, G., & Henao, E. (2016). <em>Dureza Rockwell</em>. Universidad Tecnológica de Pereira.',
       link: '',
     },
@@ -237,7 +232,7 @@ export default {
           centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
         },
         {
-          nombre: 'Paola Alexandra Moya  ',
+          nombre: 'Paola Alexandra Moya Peralta',
           cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -261,11 +256,6 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
