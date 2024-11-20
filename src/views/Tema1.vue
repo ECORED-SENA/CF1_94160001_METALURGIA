@@ -217,7 +217,7 @@
         .col-xl-11.m-auto
           .bg-white.p-4.col-xl-11.m-auto
             figure
-              img(src="@/assets/curso/tema1/22.svg")
+              img(src="@/assets/curso/tema1/22.svg" alt="Esquema del ensayo Rockwell, presenta  tres etapas con una esfera metálica penetrando el material. Variables: I (penetración inicial), P (con carga adicional) y r (remanente).")
     
     .row.mt-4
       .col-lg.pe-lg-0(data-aos="fade-up")
