@@ -30,14 +30,14 @@
               img(src="@/assets/curso/tema1/3.png")
           .col-lg.ps-lg-0
             .p-4.h-100.d-flex.align-content-center.flex-wrap(style="background-color:#FDECD4;")
-              p.fw-bold.mb-0 Por ejemplo
+              p.fw-bold.mb-0 Por ejemplo:
               p.mb-0 Si se busca fabricar un tenedor para uso en un restaurante, es evidente que este debe ser lo suficientemente resistente para evitar que se doble o se rompa, además de ser resistente a la oxidación y a la corrosión. En este caso, se combinan dos tipos de propiedades: una física y una química.
         p.mt-4 Es fundamental que las propiedades requeridas para #[strong un producto metálico sean comprendidas y definidas por todas las personas involucradas en el diseño del producto], para que el área de fabricación pueda seleccionar los materiales más adecuados desde una perspectiva técnica y económica.
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/4.png")
     
-    p.mt-4(data-aos="fade-up") Entre las entidades que norman las especificaciones de los metales, se encuentra:
+    p.mt-4(data-aos="fade-up") Entre las entidades que forman las especificaciones de los metales, se encuentra:
 
     .col-xl-10.m-auto.mt-4
       .p-4(style="background-color:#E5E8ED;" data-aos="fade-up" data-aos-duration="900")
@@ -76,7 +76,7 @@
           div.text-small(numero="1" titulo="Tenacidad") 
             .row.justify-content-center
               .col-lg.mb-4.mb-lg-0
-                p.mb-0 En la ciencia de materiales, la tenacidad se refiere a la energía total de deformación que un material puede absorber antes de romperse, ya sea por impacto o por acumulación de dislocaciones. Depende en gran medida del grado de cohesión entre las moléculas de la aleación. La relación entre el esfuerzo y la deformación se ilustra en un diagrama donde la resiliencia es el área bajo la curva en la zona verde, y la tenacidad es la suma de las áreas bajo la curva en las zonas verde y amarilla.
+                p.mb-0 En la ciencia de materiales, la tenacidad se refiere a la energía total de deformación que un material puede absorber antes de romperse, ya sea por impacto o por acumulación de dislocaciones. Depende en gran medida del grado de cohesión entre las moléculas de la aleación. La relación entre el esfuerzo y la deformación se ilustra en un diagrama, donde la resiliencia es el área bajo la curva en la zona verde, y la tenacidad es la suma de las áreas bajo la curva en las zonas verde y amarilla.
               .col-lg-auto.col-md-8.col-10
                 figure
                   img(src="@/assets/curso/tema1/8.png")
@@ -97,7 +97,7 @@
           div.text-small(numero="4" titulo="Resistencia") 
             .row.justify-content-center
               .col-lg.mb-4.mb-lg-0
-                p.mb-0 Los metales en servicio están sometidos a fuerzas o cargas. En estas condiciones, es fundamental conocer las características del metal para diseñar componentes de manera que los esfuerzos a los que estén expuestos no excedan su resistencia máxima, evitando así la fractura del material. El comportamiento mecánico de un metal es resultado de la relación entre su deformación y la fuerza aplicada.
+                p.mb-0 Los metales en servicio están sometidos a fuerzas o cargas. En estas condiciones, es fundamental conocer las características del metal para diseñar componentes, de manera que los esfuerzos a los que estén expuestos no excedan su resistencia máxima, evitando así la fractura del material. El comportamiento mecánico de un metal es resultado de la relación entre su deformación y la fuerza aplicada.
               .col-lg-auto.col-md-8.col-10
                 figure
                   img(src="@/assets/curso/tema1/11.png")

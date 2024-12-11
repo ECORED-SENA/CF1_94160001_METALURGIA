@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Propiedades mecánicas y metalúrgicas de los metales',
     descripcionCurso:
-      'El componente formativo propiedades mecánicas y metalúrgicas de los metales, aborda las características físicas y químicas de los metales, como tenacidad, ductilidad, maleabilidad, resistencia, fatiga, dureza, oxidación y corrosión. Incluye métodos de ensayo para evaluar su comportamiento, destacando normas como ASTM. Además, enfatiza la importancia de la correcta aplicación y las regulaciones ambientales en la industria metalúrgica.',
+      'El componente formativo, propiedades mecánicas y metalúrgicas de los metales, aborda las características físicas y químicas de los metales, como tenacidad, ductilidad, maleabilidad, resistencia, fatiga, dureza, oxidación y corrosión. Incluye métodos de ensayo para evaluar su comportamiento, destacando normas como ASTM. Además, enfatiza la importancia de la correcta aplicación y las regulaciones ambientales en la industria metalúrgica.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -101,35 +101,35 @@ export default {
     {
       tema: 'Especificaciones técnicas de los productos metálicos ',
       referencia:
-        'Lifeder Educación. (2022). METALES, NO METALES Y METALOIDES explicados: propiedades y ejemplos. [Archivo de video] Youtube. ',
+        'Lifeder Educación. (2022). METALES, NO METALES Y METALOIDES explicados: propiedades y ejemplos. [Archivo de video] YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/mMlqo2I1l6s?feature=shared  ',
     },
     {
       tema: 'Tracción  ',
       referencia:
-        'EAFIT+. (2020). Ensayo: de tracción a probeta de acero. [Archivo de video] Youtube.   ',
+        'EAFIT+. (2020). Ensayo: de tracción a probeta de acero. [Archivo de video] YouTube.   ',
       tipo: 'Video',
       link: 'https://youtu.be/wy7ENOO6RiI?feature=shared  ',
     },
     {
       tema: 'Comprensión  ',
       referencia:
-        'Instron España. (2023). ¿Qué es un ensayo de compresión?. [Archivo de video] Youtube.   ',
+        'Instron España. (2023). ¿Qué es un ensayo de compresión?. [Archivo de video] YouTube.   ',
       tipo: 'Video',
       link: 'https://youtu.be/MmV8ANzeVVc?feature=shared  ',
     },
     {
       tema: 'Corrosión ',
       referencia:
-        'Elektro-Korrosion (2020). ¿Qué es la corrosión galvánica? Elektro-Korrosion. [Archivo de video] Youtube.   ',
+        'Elektro-Korrosion (2020). ¿Qué es la corrosión galvánica? Elektro-Korrosion. [Archivo de video] YouTube.   ',
       tipo: 'Video',
       link: 'https://youtu.be/8JErTBFhBDM?feature=shared  ',
     },
     {
       tema: 'Dureza  ',
       referencia:
-        'Sinowon. (2023). Demostración Completa del Probador de Dureza Rockwell DigiRock DR3 |Guia Técnica y Tutorial. [Archivo de video] Youtube.  ',
+        'Sinowon. (2023). Demostración Completa del Probador de Dureza Rockwell DigiRock DR3 |Guia Técnica y Tutorial. [Archivo de video] YouTube.  ',
       tipo: 'Video',
       link: 'https://youtu.be/eE6ovd4MCWg?feature=shared  ',
     },
@@ -263,12 +263,12 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
